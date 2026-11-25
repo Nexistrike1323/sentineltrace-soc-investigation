@@ -1,0 +1,44 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+.pytest_cache/
+data/raw/*
+!data/raw/.gitkeep
+reports/*
+!reports/.gitkeep
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local investigation data - never commit security telemetry
+data/investigations/*
+!data/investigations/.gitkeep
+
+# Local uploads and generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Python and environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+
+# Secrets and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local development backups
+/backups/
+*.bak
